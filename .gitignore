@@ -1,0 +1,33 @@
+# Exports et rapports generes
+*.csv
+*.html
+*.log
+*.xml
+!*.ps1xml
+
+# Transcriptions PowerShell
+PowerShell_transcript*.txt
+
+# Resultats de tests et de couverture
+TestResults/
+coverage.xml
+testResults.xml
+
+# Artefacts de build
+out/
+bin/
+obj/
+
+# Fichiers locaux de configuration et secrets
+*.local.ps1
+*.secret*
+*.pfx
+*.cer
+.env
+
+# Editeurs et systemes
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
